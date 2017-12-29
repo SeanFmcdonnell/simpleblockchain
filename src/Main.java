@@ -17,7 +17,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String[] genesisTransactions = {"a satoshi sent ivan 999900 bitcoin","hal finney sent 10 bitcoins to ivan"};
+        String[] genesisTransactions = {"a satoshi sent sean 999900 bitcoin","hal finney sent 10 bitcoins to sean"};
         Block genesisBlock = new Block(0, genesisTransactions);
 
         String[] block2Transactions = {"ivan sent 10 bitcoin to satoshi", "satoshi sent 10 bitcoin to starbuck"};

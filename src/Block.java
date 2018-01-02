@@ -32,3 +32,8 @@ public class Block {
         return blockHash;
     }
 }
+
+private class Block {
+  blockHash; 
+}
+)
